@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="630" height="880" viewBox="0 0 630 880">
+<defs>
+ <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#9b6af0"/><stop offset=".5" stop-color="#22103f"/><stop offset="1" stop-color="#9b6af0"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#fff4c2"/><stop offset=".5" stop-color="#d9a93a"/><stop offset="1" stop-color="#8a6116"/></linearGradient>
+ <linearGradient id="parch" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#fbf5e6"/><stop offset="1" stop-color="#e6dbc0"/></linearGradient>
+ <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#1b1b24"/><stop offset=".5" stop-color="#2e2e3c"/><stop offset="1" stop-color="#1b1b24"/></linearGradient>
+ <linearGradient id="foil" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/>
+  <stop offset=".5" stop-color="#fff" stop-opacity=".22"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+ <clipPath id="artclip"><rect x="0" y="0" width="540" height="380" rx="6"/></clipPath>
+ <filter id="sh" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity=".5"/></filter>
+</defs>
+<!-- frame -->
+<rect x="0" y="0" width="630" height="880" rx="30" fill="#111"/>
+<rect x="10" y="10" width="610" height="860" rx="24" fill="url(#frame)"/>
+<rect x="22" y="22" width="586" height="836" rx="16" fill="none" stroke="url(#gold)" stroke-width="3"/>
+<!-- header -->
+<rect x="36" y="34" width="558" height="62" rx="12" fill="url(#bar)" stroke="url(#gold)" stroke-width="3" filter="url(#sh)"/>
+<g transform="translate(70 65)"><circle r="20" fill="#22103f" stroke="url(#gold)" stroke-width="2.5"/><g><circle r="9" fill="#fff"/><circle cx="5" cy="-3" r="8" fill="#22103f"/></g></g>
+<text x="102" y="76" font-family="DejaVu Serif, Georgia, serif" font-weight="bold" font-size="30" fill="#fff">Chevalier d&#39;Obsidienne</text>
+<g transform="translate(558 65)"><circle r="23" fill="url(#gold)" stroke="#5a3e0c" stroke-width="2"/><circle r="17" fill="#1b1b24"/>
+ <text y="9" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-weight="bold" font-size="25" fill="#fff">5</text></g>
+<!-- art -->
+<rect x="40" y="103" width="550" height="390" rx="9" fill="url(#gold)" filter="url(#sh)"/>
+<g transform="translate(45 108)"><g clip-path="url(#artclip)">
+<defs>
+ <linearGradient id="nsky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#12051f"/><stop offset=".7" stop-color="#3d1466"/><stop offset="1" stop-color="#7a3cb8"/></linearGradient>
+ <linearGradient id="armor" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3a3350"/><stop offset=".5" stop-color="#1b1726"/><stop offset="1" stop-color="#0c0a12"/></linearGradient>
+ <linearGradient id="blade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e3d1ff"/><stop offset="1" stop-color="#8e5be0"/></linearGradient>
+</defs>
+<rect width="540" height="380" fill="url(#nsky)"/>
+<circle cx="270" cy="170" r="150" fill="#b77cff" opacity=".12"/><circle cx="270" cy="170" r="95" fill="#b77cff" opacity=".12"/>
+<path d="M0 380 L0 300 L40 300 L40 250 L70 250 L70 300 L470 300 L470 240 L500 240 L500 300 L540 300 L540 380Z" fill="#0d0617"/>
+<path d="M45 250 L55 225 L65 250Z M475 240 L485 212 L495 240Z" fill="#0d0617"/>
+<!-- cape -->
+<path d="M200 140 C160 220 140 300 130 380 L410 380 C400 300 380 220 340 140Z" fill="#4a0f2e" stroke="#1a0510" stroke-width="2"/>
+<!-- body -->
+<g fill="url(#armor)" stroke="#a98cff" stroke-width="1.8" stroke-linejoin="round">
+ <path d="M215 140 L325 140 L335 250 L300 270 L240 270 L205 250Z"/>
+ <path d="M195 130 C180 140 175 160 180 175 L215 165 L218 135Z"/>
+ <path d="M345 130 C360 140 365 160 360 175 L325 165 L322 135Z"/>
+ <path d="M240 268 L262 268 L258 380 L230 380Z"/><path d="M278 268 L300 268 L310 380 L282 380Z"/>
+ <path d="M232 60 C232 35 252 22 270 22 C288 22 308 35 308 60 L308 110 C300 128 285 138 270 138 C255 138 240 128 232 110Z"/>
+</g>
+<path d="M245 78 L295 78 L292 88 L248 88Z" fill="#d6b8ff"/><path d="M270 88 L270 125" stroke="#a98cff" stroke-width="2"/>
+<path d="M270 22 C262 8 270 -5 285 -8 C278 6 285 15 282 26Z" fill="#7a3cb8"/>
+<path d="M240 170 L300 170 M245 200 L295 200 M250 230 L290 230" stroke="#6b55a8" stroke-width="1.5"/>
+<!-- shield -->
+<path d="M120 170 L195 170 L195 240 C195 280 160 305 157 308 C154 305 120 280 120 240Z" fill="#241b38" stroke="#c9adff" stroke-width="3"/>
+<path d="M157 185 L170 225 L157 290 L144 225Z" fill="#9b6af0"/>
+<!-- sword -->
+<path d="M372 40 L384 40 L388 215 L368 215Z" fill="url(#blade)" stroke="#5a2ea8" stroke-width="1.5"/>
+<path d="M378 30 L384 40 L372 40Z" fill="#e3d1ff"/>
+<rect x="352" y="214" width="52" height="10" rx="3" fill="#2b2240" stroke="#c9adff" stroke-width="1.5"/>
+<rect x="372" y="224" width="12" height="36" fill="#3a2516"/><circle cx="378" cy="266" r="8" fill="#b77cff"/>
+<path d="M378 40 L378 210" stroke="#ffffff" stroke-width="1.2" opacity=".7"/>
+<circle cx="378" cy="110" r="45" fill="#c9a0ff" opacity=".15"/>
+<rect width="540" height="380" fill="url(#foil)"/></g></g>
+<!-- type line -->
+<rect x="36" y="502" width="558" height="42" rx="10" fill="url(#bar)" stroke="url(#gold)" stroke-width="2.5"/>
+<text x="56" y="530" font-family="DejaVu Sans, Arial, sans-serif" font-weight="bold" font-size="19" fill="#fff">Créature — Guerrier</text>
+<text x="574" y="530" text-anchor="end" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" fill="#d6b8ff" letter-spacing="2">&#9733;&#9733;&#9733;&#9733;</text>
+<!-- text box -->
+<rect x="44" y="554" width="542" height="200" rx="10" fill="url(#parch)" stroke="url(#gold)" stroke-width="2.5"/>
+<text x="315" y="592" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" fill="#22201a"><tspan x="315" dy="0">Initiative. Le Chevalier d&#39;Obsidienne ne</tspan><tspan x="315" dy="27">peut pas être ciblé par les sorts adverses.</tspan></text>
+<line x1="120" y1="648" x2="510" y2="648" stroke="#a8946a" stroke-width="1.2"/>
+<text x="315" y="680" text-anchor="middle" font-family="DejaVu Serif, Georgia, serif" font-style="italic" font-size="18" fill="#5c4f36">« Il a juré fidélité à la nuit éternelle. »</text>
+<!-- stats -->
+<g font-family="DejaVu Sans, Arial, sans-serif" font-weight="bold">
+ <rect x="44" y="776" width="150" height="50" rx="12" fill="url(#bar)" stroke="url(#gold)" stroke-width="2.5"/>
+ <text x="119" y="809" text-anchor="middle" font-size="22" fill="#ff8a7a">ATK 2400</text>
+ <rect x="436" y="776" width="150" height="50" rx="12" fill="url(#bar)" stroke="url(#gold)" stroke-width="2.5"/>
+ <text x="511" y="809" text-anchor="middle" font-size="22" fill="#8ad4ff">DEF 2200</text>
+ <text x="315" y="798" text-anchor="middle" font-size="16" fill="#fff" letter-spacing="1">ÉPIQUE</text>
+ <text x="315" y="818" text-anchor="middle" font-size="12" font-weight="normal" fill="#fff" opacity=".8">AETHERIA · AE-006/008</text>
+</g>
+</svg>

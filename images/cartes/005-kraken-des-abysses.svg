@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="630" height="880" viewBox="0 0 630 880">
+<defs>
+ <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#2f8fd6"/><stop offset=".5" stop-color="#071f3d"/><stop offset="1" stop-color="#2f8fd6"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#fff4c2"/><stop offset=".5" stop-color="#d9a93a"/><stop offset="1" stop-color="#8a6116"/></linearGradient>
+ <linearGradient id="parch" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#fbf5e6"/><stop offset="1" stop-color="#e6dbc0"/></linearGradient>
+ <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#1b1b24"/><stop offset=".5" stop-color="#2e2e3c"/><stop offset="1" stop-color="#1b1b24"/></linearGradient>
+ <linearGradient id="foil" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/>
+  <stop offset=".5" stop-color="#fff" stop-opacity=".22"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+ <clipPath id="artclip"><rect x="0" y="0" width="540" height="380" rx="6"/></clipPath>
+ <filter id="sh" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity=".5"/></filter>
+</defs>
+<!-- frame -->
+<rect x="0" y="0" width="630" height="880" rx="30" fill="#111"/>
+<rect x="10" y="10" width="610" height="860" rx="24" fill="url(#frame)"/>
+<rect x="22" y="22" width="586" height="836" rx="16" fill="none" stroke="url(#gold)" stroke-width="3"/>
+<!-- header -->
+<rect x="36" y="34" width="558" height="62" rx="12" fill="url(#bar)" stroke="url(#gold)" stroke-width="3" filter="url(#sh)"/>
+<g transform="translate(70 65)"><circle r="20" fill="#071f3d" stroke="url(#gold)" stroke-width="2.5"/><g><path d="M0 -10 C5 -3 8 1 8 4 C8 9 4 11 0 11 C-4 11 -8 9 -8 4 C-8 1 -5 -3 0 -10Z" fill="#fff"/></g></g>
+<text x="102" y="76" font-family="DejaVu Serif, Georgia, serif" font-weight="bold" font-size="30" fill="#fff">Kraken des Abysses</text>
+<g transform="translate(558 65)"><circle r="23" fill="url(#gold)" stroke="#5a3e0c" stroke-width="2"/><circle r="17" fill="#1b1b24"/>
+ <text y="9" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-weight="bold" font-size="25" fill="#fff">8</text></g>
+<!-- art -->
+<rect x="40" y="103" width="550" height="390" rx="9" fill="url(#gold)" filter="url(#sh)"/>
+<g transform="translate(45 108)"><g clip-path="url(#artclip)">
+<defs>
+ <linearGradient id="ksky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a1a2e"/><stop offset=".5" stop-color="#14466e"/><stop offset="1" stop-color="#021022"/></linearGradient>
+</defs>
+<rect width="540" height="380" fill="url(#ksky)"/>
+<path d="M0 60 L60 40 M120 30 L200 50 M380 25 L470 45" stroke="#8fb9d9" stroke-width="2" opacity=".3"/>
+<path d="M240 70 C235 40 250 20 262 20 C270 30 268 50 266 70 L300 70 L300 64 L240 64Z" fill="#c9b48a" opacity=".8"/>
+<path d="M210 95 L330 95 L315 115 L225 115Z" fill="#3a2516"/><path d="M268 95 L268 30" stroke="#3a2516" stroke-width="3"/>
+<path d="M270 34 L300 60 L270 70Z" fill="#d8ccb0"/>
+<path d="M0 115 C60 100 120 130 180 115 C240 100 300 130 360 115 C420 100 480 130 540 115 L540 380 L0 380Z" fill="#0f3a5e"/>
+<ellipse cx="270" cy="250" rx="120" ry="95" fill="#6a2570" stroke="#2b0b30" stroke-width="2.5"/>
+<ellipse cx="230" cy="245" rx="22" ry="16" fill="#ffd23f"/><ellipse cx="310" cy="245" rx="22" ry="16" fill="#ffd23f"/>
+<ellipse cx="230" cy="245" rx="5" ry="14" fill="#1a0620"/><ellipse cx="310" cy="245" rx="5" ry="14" fill="#1a0620"/>
+<path d="M200 200 C230 185 250 190 255 200 M285 200 C290 190 310 185 340 200" stroke="#2b0b30" stroke-width="4" fill="none"/>
+<path d="M46.0 380.0 L46.4 365.5 L47.5 351.0 L49.2 336.5 L51.1 322.0 L53.1 307.5 L55.0 293.0 L56.3 278.5 L57.0 264.0 L56.7 249.5 L55.4 235.0 L53.0 220.5 L49.6 206.0 L45.3 191.5 L40.5 177.0 L35.5 162.5 L30.6 148.0 L26.4 133.5 L23.2 119.0 L21.3 104.5 L21.2 90.0 L25.2 90.0 L27.5 104.5 L31.6 119.0 L37.0 133.5 L43.4 148.0 L50.5 162.5 L57.7 177.0 L64.7 191.5 L71.2 206.0 L76.8 220.5 L81.4 235.0 L84.9 249.5 L87.4 264.0 L88.9 278.5 L89.8 293.0 L90.1 307.5 L90.3 322.0 L90.6 336.5 L91.1 351.0 L92.2 365.5 L94.0 380.0Z" fill="#5a1f5e" stroke="#2b0b30" stroke-width="2"/><circle cx="77.2" cy="343.8" r="4.8" fill="#e88ab8" opacity=".75"/><circle cx="78.2" cy="307.5" r="4.1" fill="#e88ab8" opacity=".75"/><circle cx="78.0" cy="271.2" r="3.4" fill="#e88ab8" opacity=".75"/><circle cx="72.8" cy="235.0" r="2.8" fill="#e88ab8" opacity=".75"/><circle cx="61.1" cy="198.8" r="2.1" fill="#e88ab8" opacity=".75"/><circle cx="45.2" cy="162.5" r="1.5" fill="#e88ab8" opacity=".75"/><path d="M128.0 380.0 L131.6 368.5 L134.7 357.0 L137.1 345.5 L138.8 334.0 L139.7 322.5 L140.1 311.0 L139.9 299.5 L139.5 288.0 L139.2 276.5 L139.3 265.0 L140.1 253.5 L141.9 242.0 L144.9 230.5 L149.2 219.0 L154.8 207.5 L161.7 196.0 L169.7 184.5 L178.4 173.0 L187.5 161.5 L196.4 150.0 L200.4 150.0 L193.5 161.5 L186.4 173.0 L179.7 184.5 L173.7 196.0 L168.8 207.5 L165.2 219.0 L162.9 230.5 L161.9 242.0 L162.1 253.5 L163.3 265.0 L165.2 276.5 L167.5 288.0 L169.9 299.5 L172.1 311.0 L173.7 322.5 L174.8 334.0 L175.1 345.5 L174.7 357.0 L173.6 368.5 L172.0 380.0Z" fill="#5a1f5e" stroke="#2b0b30" stroke-width="2"/><circle cx="162.5" cy="351.2" r="4.4" fill="#e88ab8" opacity=".75"/><circle cx="162.7" cy="322.5" r="3.8" fill="#e88ab8" opacity=".75"/><circle cx="159.2" cy="293.8" r="3.1" fill="#e88ab8" opacity=".75"/><circle cx="155.3" cy="265.0" r="2.5" fill="#e88ab8" opacity=".75"/><circle cx="155.7" cy="236.2" r="1.9" fill="#e88ab8" opacity=".75"/><circle cx="163.8" cy="207.5" r="1.5" fill="#e88ab8" opacity=".75"/><path d="M376.0 380.0 L373.8 367.0 L371.5 354.0 L369.1 341.0 L367.0 328.0 L365.5 315.0 L364.7 302.0 L364.7 289.0 L365.7 276.0 L367.5 263.0 L370.0 250.0 L373.0 237.0 L376.2 224.0 L379.3 211.0 L381.8 198.0 L383.4 185.0 L383.8 172.0 L382.7 159.0 L379.9 146.0 L375.5 133.0 L369.5 120.0 L373.5 120.0 L381.7 133.0 L388.3 146.0 L393.3 159.0 L396.6 172.0 L398.4 185.0 L399.0 198.0 L398.7 211.0 L397.8 224.0 L396.8 237.0 L396.0 250.0 L395.7 263.0 L396.1 276.0 L397.3 289.0 L399.5 302.0 L402.5 315.0 L406.2 328.0 L410.5 341.0 L415.1 354.0 L419.6 367.0 L424.0 380.0Z" fill="#5a1f5e" stroke="#2b0b30" stroke-width="2"/><circle cx="399.2" cy="347.5" r="4.8" fill="#e88ab8" opacity=".75"/><circle cx="390.6" cy="315.0" r="4.1" fill="#e88ab8" opacity=".75"/><circle cx="386.3" cy="282.5" r="3.4" fill="#e88ab8" opacity=".75"/><circle cx="387.4" cy="250.0" r="2.8" fill="#e88ab8" opacity=".75"/><circle cx="391.4" cy="217.5" r="2.1" fill="#e88ab8" opacity=".75"/><circle cx="393.1" cy="185.0" r="1.5" fill="#e88ab8" opacity=".75"/><path d="M454.0 380.0 L457.5 364.0 L461.2 348.0 L464.7 332.0 L467.9 316.0 L470.4 300.0 L472.2 284.0 L473.1 268.0 L473.2 252.0 L472.4 236.0 L471.1 220.0 L469.4 204.0 L467.7 188.0 L466.3 172.0 L465.6 156.0 L466.0 140.0 L467.7 124.0 L471.0 108.0 L475.8 92.0 L482.3 76.0 L490.2 60.0 L494.2 60.0 L488.7 76.0 L484.6 92.0 L482.2 108.0 L481.3 124.0 L482.0 140.0 L484.0 156.0 L487.1 172.0 L490.9 188.0 L495.0 204.0 L499.1 220.0 L502.8 236.0 L506.0 252.0 L508.3 268.0 L509.8 284.0 L510.4 300.0 L510.3 316.0 L509.5 332.0 L508.4 348.0 L507.1 364.0 L506.0 380.0Z" fill="#5a1f5e" stroke="#2b0b30" stroke-width="2"/><circle cx="494.4" cy="340.0" r="5.2" fill="#e88ab8" opacity=".75"/><circle cx="497.6" cy="300.0" r="4.5" fill="#e88ab8" opacity=".75"/><circle cx="496.3" cy="260.0" r="3.8" fill="#e88ab8" opacity=".75"/><circle cx="489.9" cy="220.0" r="3.0" fill="#e88ab8" opacity=".75"/><circle cx="481.5" cy="180.0" r="2.2" fill="#e88ab8" opacity=".75"/><circle cx="476.4" cy="140.0" r="1.5" fill="#e88ab8" opacity=".75"/>
+<path d="M0 300 C70 285 140 315 210 300 C280 285 350 315 420 300 C480 290 510 305 540 300 L540 380 L0 380Z" fill="#0b2c4a" opacity=".85"/>
+<path d="M20 296 C60 288 90 300 120 296 M300 300 C340 290 370 304 400 298" stroke="#9fd6ff" stroke-width="2" fill="none" opacity=".5"/>
+<rect width="540" height="380" fill="url(#foil)"/></g></g>
+<!-- type line -->
+<rect x="36" y="502" width="558" height="42" rx="10" fill="url(#bar)" stroke="url(#gold)" stroke-width="2.5"/>
+<text x="56" y="530" font-family="DejaVu Sans, Arial, sans-serif" font-weight="bold" font-size="19" fill="#fff">Créature — Monstre marin</text>
+<text x="574" y="530" text-anchor="end" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" fill="#9fd6ff" letter-spacing="2">&#9733;&#9733;&#9733;&#9733;</text>
+<!-- text box -->
+<rect x="44" y="554" width="542" height="200" rx="10" fill="url(#parch)" stroke="url(#gold)" stroke-width="2.5"/>
+<text x="315" y="592" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" fill="#22201a"><tspan x="315" dy="0">Au début de votre tour, renvoyez une carte</tspan><tspan x="315" dy="27">adverse dans la main de son propriétaire.</tspan></text>
+<line x1="120" y1="648" x2="510" y2="648" stroke="#a8946a" stroke-width="1.2"/>
+<text x="315" y="680" text-anchor="middle" font-family="DejaVu Serif, Georgia, serif" font-style="italic" font-size="18" fill="#5c4f36">« Les marins ne prononcent jamais son nom. »</text>
+<!-- stats -->
+<g font-family="DejaVu Sans, Arial, sans-serif" font-weight="bold">
+ <rect x="44" y="776" width="150" height="50" rx="12" fill="url(#bar)" stroke="url(#gold)" stroke-width="2.5"/>
+ <text x="119" y="809" text-anchor="middle" font-size="22" fill="#ff8a7a">ATK 3000</text>
+ <rect x="436" y="776" width="150" height="50" rx="12" fill="url(#bar)" stroke="url(#gold)" stroke-width="2.5"/>
+ <text x="511" y="809" text-anchor="middle" font-size="22" fill="#8ad4ff">DEF 2800</text>
+ <text x="315" y="798" text-anchor="middle" font-size="16" fill="#fff" letter-spacing="1">ÉPIQUE</text>
+ <text x="315" y="818" text-anchor="middle" font-size="12" font-weight="normal" fill="#fff" opacity=".8">AETHERIA · AE-005/008</text>
+</g>
+</svg>

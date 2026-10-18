@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" width="320" height="120">
+  <g transform="translate(60 60)">
+    <polygon points="0,-46 13,-32 32,-36 32,-17 46,0 32,17 32,36 13,32 0,46 -13,32 -32,36 -32,17 -46,0 -32,-17 -32,-36 -13,-32" fill="#e3a82b"/>
+    <circle r="30" fill="#14213d"/>
+    <text y="12" text-anchor="middle" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" font-size="32" fill="#fff">10</text>
+  </g>
+  <text x="118" y="64" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" font-size="38" fill="#14213d">GRADIA</text>
+  <text x="120" y="88" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#e3a82b" letter-spacing="1">GRADATION CERTIFIÉE</text>
+</svg>

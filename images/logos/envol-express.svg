@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" width="320" height="120">
+  <path d="M38 56 C24 50 14 40 10 28 C22 34 30 36 40 38 C30 30 26 22 26 14 C36 22 46 30 56 42 Z" fill="#c81e2c"/>
+  <rect x="44" y="40" width="56" height="44" rx="5" fill="#e3a82b" stroke="#14213d" stroke-width="4"/>
+  <path d="M44 56 H100 M72 40 V56" stroke="#14213d" stroke-width="4"/>
+  <path d="M20 96 H70 M34 106 H86" stroke="#c81e2c" stroke-width="5" stroke-linecap="round"/>
+  <text x="114" y="60" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" font-size="34" fill="#14213d">ENVOL</text>
+  <text x="114" y="90" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" font-size="24" fill="#c81e2c" font-style="italic">EXPRESS</text>
+</svg>

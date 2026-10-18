@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="630" height="880" viewBox="0 0 630 880">
+<defs>
+ <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#6cc04a"/><stop offset=".5" stop-color="#15401a"/><stop offset="1" stop-color="#6cc04a"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#fff4c2"/><stop offset=".5" stop-color="#d9a93a"/><stop offset="1" stop-color="#8a6116"/></linearGradient>
+ <linearGradient id="parch" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#fbf5e6"/><stop offset="1" stop-color="#e6dbc0"/></linearGradient>
+ <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#1b1b24"/><stop offset=".5" stop-color="#2e2e3c"/><stop offset="1" stop-color="#1b1b24"/></linearGradient>
+ <linearGradient id="foil" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/>
+  <stop offset=".5" stop-color="#fff" stop-opacity=".22"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+ <clipPath id="artclip"><rect x="0" y="0" width="540" height="380" rx="6"/></clipPath>
+ <filter id="sh" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity=".5"/></filter>
+</defs>
+<!-- frame -->
+<rect x="0" y="0" width="630" height="880" rx="30" fill="#111"/>
+<rect x="10" y="10" width="610" height="860" rx="24" fill="url(#frame)"/>
+<rect x="22" y="22" width="586" height="836" rx="16" fill="none" stroke="url(#gold)" stroke-width="3"/>
+<!-- header -->
+<rect x="36" y="34" width="558" height="62" rx="12" fill="url(#bar)" stroke="url(#gold)" stroke-width="3" filter="url(#sh)"/>
+<g transform="translate(70 65)"><circle r="20" fill="#15401a" stroke="url(#gold)" stroke-width="2.5"/><g><path d="M-7 8 C-9 -4 0 -10 9 -10 C9 0 4 8 -7 8Z" fill="#fff"/><path d="M-7 8 L4 -3" stroke="#000" stroke-opacity=".35" stroke-width="1.5"/></g></g>
+<text x="102" y="76" font-family="DejaVu Serif, Georgia, serif" font-weight="bold" font-size="30" fill="#fff">Sylve Ancienne</text>
+<g transform="translate(558 65)"><circle r="23" fill="url(#gold)" stroke="#5a3e0c" stroke-width="2"/><circle r="17" fill="#1b1b24"/>
+ <text y="9" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-weight="bold" font-size="25" fill="#fff">3</text></g>
+<!-- art -->
+<rect x="40" y="103" width="550" height="390" rx="9" fill="url(#gold)" filter="url(#sh)"/>
+<g transform="translate(45 108)"><g clip-path="url(#artclip)">
+<defs>
+ <linearGradient id="fsky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d2b16"/><stop offset=".6" stop-color="#2f6b2a"/><stop offset="1" stop-color="#9ccc4a"/></linearGradient>
+ <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#e9ff9a" stop-opacity=".7"/><stop offset="1" stop-color="#e9ff9a" stop-opacity="0"/></radialGradient>
+ <linearGradient id="bark" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6b4a2b"/><stop offset=".5" stop-color="#4a301b"/><stop offset="1" stop-color="#2e1d10"/></linearGradient>
+</defs>
+<rect width="540" height="380" fill="url(#fsky)"/>
+<circle cx="270" cy="180" r="200" fill="url(#glow)"/>
+<g fill="#16401c" opacity=".8"><path d="M20 380 L20 120 L35 120 L35 380Z"/><path d="M490 380 L490 90 L508 90 L508 380Z"/><circle cx="27" cy="110" r="45"/><circle cx="500" cy="80" r="55"/></g>
+<!-- tree canopy -->
+<g fill="#2f7d32" stroke="#174a1a" stroke-width="2">
+ <circle cx="270" cy="85" r="75"/><circle cx="190" cy="110" r="58"/><circle cx="350" cy="110" r="58"/>
+ <circle cx="220" cy="55" r="45"/><circle cx="320" cy="55" r="45"/>
+</g>
+<g fill="#58a83a"><circle cx="250" cy="60" r="22"/><circle cx="330" cy="88" r="18"/><circle cx="190" cy="98" r="16"/></g>
+<!-- trunk with face -->
+<path d="M225 140 C230 200 220 260 190 330 C170 360 140 370 110 380 L430 380 C400 370 370 360 350 330 C320 260 310 200 315 140Z" fill="url(#bark)" stroke="#1d120a" stroke-width="2"/>
+<path d="M240 160 C245 200 238 240 230 280 M300 160 C296 210 302 250 312 290 M270 150 L270 190" stroke="#2e1d10" stroke-width="2" fill="none"/>
+<path d="M240 205 C248 195 262 195 266 205 C258 212 246 212 240 205Z" fill="#c8ff5a"/>
+<path d="M276 205 C280 195 294 195 302 205 C296 212 284 212 276 205Z" fill="#c8ff5a"/>
+<circle cx="253" cy="204" r="16" fill="#c8ff5a" opacity=".25"/><circle cx="289" cy="204" r="16" fill="#c8ff5a" opacity=".25"/>
+<path d="M250 250 C262 262 280 262 292 250" stroke="#1d120a" stroke-width="4" fill="none"/>
+<g fill="#58a83a"><ellipse cx="200" cy="300" rx="12" ry="6" transform="rotate(-30 200 300)"/><ellipse cx="345" cy="290" rx="12" ry="6" transform="rotate(30 345 290)"/></g>
+<path d="M0 360 C100 345 180 370 270 355 C360 342 450 368 540 352 L540 380 L0 380Z" fill="#1d4d1c"/>
+<circle cx="341" cy="97" r="2.5" fill="#eaff8a" opacity="1"/><circle cx="59" cy="57" r="3" fill="#eaff8a" opacity="0.5"/><circle cx="384" cy="318" r="2" fill="#eaff8a" opacity="1"/><circle cx="229" cy="39" r="2" fill="#eaff8a" opacity="0.8"/><circle cx="438" cy="55" r="2" fill="#eaff8a" opacity="0.5"/><circle cx="444" cy="50" r="3" fill="#eaff8a" opacity="0.5"/><circle cx="238" cy="342" r="3" fill="#eaff8a" opacity="1"/><circle cx="73" cy="315" r="3" fill="#eaff8a" opacity="0.8"/><circle cx="60" cy="133" r="2" fill="#eaff8a" opacity="1"/><circle cx="146" cy="168" r="2.5" fill="#eaff8a" opacity="0.5"/><circle cx="130" cy="312" r="2.5" fill="#eaff8a" opacity="1"/><circle cx="195" cy="72" r="3" fill="#eaff8a" opacity="1"/><circle cx="202" cy="210" r="2" fill="#eaff8a" opacity="1"/><circle cx="74" cy="308" r="2" fill="#eaff8a" opacity="1"/><circle cx="220" cy="274" r="3" fill="#eaff8a" opacity="1"/><circle cx="447" cy="180" r="2.5" fill="#eaff8a" opacity="1"/><circle cx="474" cy="205" r="2.5" fill="#eaff8a" opacity="0.5"/><circle cx="194" cy="144" r="2" fill="#eaff8a" opacity="1"/><circle cx="317" cy="288" r="2.5" fill="#eaff8a" opacity="0.8"/><circle cx="469" cy="167" r="3" fill="#eaff8a" opacity="0.5"/><circle cx="130" cy="282" r="2.5" fill="#eaff8a" opacity="0.5"/><circle cx="360" cy="97" r="2.5" fill="#eaff8a" opacity="0.8"/><circle cx="50" cy="59" r="3" fill="#eaff8a" opacity="1"/><circle cx="331" cy="194" r="3" fill="#eaff8a" opacity="0.8"/><circle cx="518" cy="316" r="2.5" fill="#eaff8a" opacity="0.5"/><circle cx="105" cy="158" r="2.5" fill="#eaff8a" opacity="1"/><circle cx="76" cy="51" r="3" fill="#eaff8a" opacity="1"/><circle cx="327" cy="351" r="3" fill="#eaff8a" opacity="1"/><rect width="540" height="380" fill="url(#foil)"/></g></g>
+<!-- type line -->
+<rect x="36" y="502" width="558" height="42" rx="10" fill="url(#bar)" stroke="url(#gold)" stroke-width="2.5"/>
+<text x="56" y="530" font-family="DejaVu Sans, Arial, sans-serif" font-weight="bold" font-size="19" fill="#fff">Créature — Esprit sylvestre</text>
+<text x="574" y="530" text-anchor="end" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" fill="#e9ff9a" letter-spacing="2">&#9733;&#9733;</text>
+<!-- text box -->
+<rect x="44" y="554" width="542" height="200" rx="10" fill="url(#parch)" stroke="url(#gold)" stroke-width="2.5"/>
+<text x="315" y="592" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" fill="#22201a"><tspan x="315" dy="0">À la fin de votre tour, chaque créature</tspan><tspan x="315" dy="27">alliée regagne 500 points de défense.</tspan></text>
+<line x1="120" y1="648" x2="510" y2="648" stroke="#a8946a" stroke-width="1.2"/>
+<text x="315" y="680" text-anchor="middle" font-family="DejaVu Serif, Georgia, serif" font-style="italic" font-size="18" fill="#5c4f36">« Ses racines touchent le cœur du monde. »</text>
+<!-- stats -->
+<g font-family="DejaVu Sans, Arial, sans-serif" font-weight="bold">
+ <rect x="44" y="776" width="150" height="50" rx="12" fill="url(#bar)" stroke="url(#gold)" stroke-width="2.5"/>
+ <text x="119" y="809" text-anchor="middle" font-size="22" fill="#ff8a7a">ATK 1200</text>
+ <rect x="436" y="776" width="150" height="50" rx="12" fill="url(#bar)" stroke="url(#gold)" stroke-width="2.5"/>
+ <text x="511" y="809" text-anchor="middle" font-size="22" fill="#8ad4ff">DEF 2600</text>
+ <text x="315" y="798" text-anchor="middle" font-size="16" fill="#fff" letter-spacing="1">PEU COMMUNE</text>
+ <text x="315" y="818" text-anchor="middle" font-size="12" font-weight="normal" fill="#fff" opacity=".8">AETHERIA · AE-007/008</text>
+</g>
+</svg>

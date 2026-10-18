@@ -1,0 +1,30 @@
+body {
+    min-height: 100vh;       /* 100vh = 100 % de la hauteur de la fenêtre */
+    display: flex;           /* range les enfants (header, main, footer) en colonne */
+    flex-direction: column;
+}
+
+main {
+    flex: 1;                 /* le main prend tout l'espace libre */
+}
+
+footer {
+    text-align: center;
+    padding: 16px 0;
+}
+
+.login-card {
+    max-width: 550px;
+    margin: 60px auto;   /* 60px en haut/bas, auto = centré à gauche/droite */
+    padding: 48px;
+    border-radius: 16px;
+}
+
+.avis {
+    display: flex;
+    gap: 24px;
+}
+
+.avis .card {
+    flex: 1;   /* les 3 cartes ont la même largeur */
+}

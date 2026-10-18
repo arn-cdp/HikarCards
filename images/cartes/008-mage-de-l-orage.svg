@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="630" height="880" viewBox="0 0 630 880">
+<defs>
+ <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#ffe14a"/><stop offset=".5" stop-color="#3b2a7a"/><stop offset="1" stop-color="#ffe14a"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#fff4c2"/><stop offset=".5" stop-color="#d9a93a"/><stop offset="1" stop-color="#8a6116"/></linearGradient>
+ <linearGradient id="parch" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#fbf5e6"/><stop offset="1" stop-color="#e6dbc0"/></linearGradient>
+ <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#1b1b24"/><stop offset=".5" stop-color="#2e2e3c"/><stop offset="1" stop-color="#1b1b24"/></linearGradient>
+ <linearGradient id="foil" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/>
+  <stop offset=".5" stop-color="#fff" stop-opacity=".22"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+ <clipPath id="artclip"><rect x="0" y="0" width="540" height="380" rx="6"/></clipPath>
+ <filter id="sh" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity=".5"/></filter>
+</defs>
+<!-- frame -->
+<rect x="0" y="0" width="630" height="880" rx="30" fill="#111"/>
+<rect x="10" y="10" width="610" height="860" rx="24" fill="url(#frame)"/>
+<rect x="22" y="22" width="586" height="836" rx="16" fill="none" stroke="url(#gold)" stroke-width="3"/>
+<!-- header -->
+<rect x="36" y="34" width="558" height="62" rx="12" fill="url(#bar)" stroke="url(#gold)" stroke-width="3" filter="url(#sh)"/>
+<g transform="translate(70 65)"><circle r="20" fill="#3b2a7a" stroke="url(#gold)" stroke-width="2.5"/><g><polygon points="2,-11 -7,2 -1,2 -3,11 7,-3 1,-3" fill="#fff"/></g></g>
+<text x="102" y="76" font-family="DejaVu Serif, Georgia, serif" font-weight="bold" font-size="30" fill="#fff">Mage de l&#39;Orage</text>
+<g transform="translate(558 65)"><circle r="23" fill="url(#gold)" stroke="#5a3e0c" stroke-width="2"/><circle r="17" fill="#1b1b24"/>
+ <text y="9" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-weight="bold" font-size="25" fill="#fff">4</text></g>
+<!-- art -->
+<rect x="40" y="103" width="550" height="390" rx="9" fill="url(#gold)" filter="url(#sh)"/>
+<g transform="translate(45 108)"><g clip-path="url(#artclip)">
+<defs>
+ <linearGradient id="msky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a1240"/><stop offset=".6" stop-color="#3b2a7a"/><stop offset="1" stop-color="#5d4aa8"/></linearGradient>
+ <radialGradient id="orb" cx=".4" cy=".35" r=".7"><stop offset="0" stop-color="#ffffff"/><stop offset=".35" stop-color="#fff27a"/><stop offset="1" stop-color="#ffb300"/></radialGradient>
+ <radialGradient id="oglow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff27a" stop-opacity=".8"/><stop offset="1" stop-color="#fff27a" stop-opacity="0"/></radialGradient>
+ <linearGradient id="robe" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a1f5c"/><stop offset="1" stop-color="#0f0a26"/></linearGradient>
+</defs>
+<rect width="540" height="380" fill="url(#msky)"/>
+<g fill="#26205a" opacity=".9"><ellipse cx="90" cy="45" rx="110" ry="40"/><ellipse cx="250" cy="25" rx="130" ry="40"/><ellipse cx="450" cy="50" rx="120" ry="42"/></g>
+<g fill="none" stroke="#fff27a" stroke-width="5" stroke-linejoin="miter">
+ <path d="M80 60 L110 140 L90 145 L130 240"/><path d="M460 70 L430 150 L452 155 L410 250"/>
+</g>
+<g fill="none" stroke="#ffffff" stroke-width="2"><path d="M80 60 L110 140 L90 145 L130 240"/><path d="M460 70 L430 150 L452 155 L410 250"/></g>
+<path d="M0 340 L540 330 L540 380 L0 380Z" fill="#151034"/>
+<!-- robe -->
+<path d="M270 70 C240 90 225 130 225 160 C200 220 175 300 160 380 L380 380 C365 300 340 220 315 160 C315 130 300 90 270 70Z" fill="url(#robe)" stroke="#9c8cff" stroke-width="2"/>
+<path d="M270 70 C250 90 240 120 242 150 C255 162 285 162 298 150 C300 120 290 90 270 70Z" fill="#100a2a" stroke="#9c8cff" stroke-width="2"/>
+<circle cx="260" cy="135" r="4" fill="#fff27a"/><circle cx="280" cy="135" r="4" fill="#fff27a"/>
+<path d="M270 160 L270 380" stroke="#9c8cff" stroke-width="1.5" opacity=".6"/>
+<path d="M245 210 L295 210 L290 222 L250 222Z" fill="#fff27a" opacity=".85"/>
+<!-- arms & orb -->
+<path d="M228 175 C200 190 180 200 160 205 L165 222 C190 220 215 210 238 200Z" fill="#2a1f5c" stroke="#9c8cff" stroke-width="1.5"/>
+<path d="M312 175 C340 160 355 140 365 120 L380 128 C372 155 355 180 305 205Z" fill="#2a1f5c" stroke="#9c8cff" stroke-width="1.5"/>
+<path d="M160 120 L160 330" stroke="#6b4a2b" stroke-width="7" stroke-linecap="round"/>
+<path d="M150 118 C150 100 170 100 170 118" stroke="#c9a14a" stroke-width="4" fill="none"/>
+<circle cx="374" cy="105" r="70" fill="url(#oglow)"/>
+<circle cx="374" cy="105" r="28" fill="url(#orb)"/>
+<g stroke="#fff27a" stroke-width="2.5" fill="none"><path d="M395 85 L420 70 L415 82 L440 68"/><path d="M350 85 L330 65 L338 62 L318 45"/><path d="M400 125 L425 140 L415 145 L438 162"/></g>
+<circle cx="160" cy="112" r="10" fill="#fff27a"/><circle cx="160" cy="112" r="22" fill="#fff27a" opacity=".25"/>
+<rect width="540" height="380" fill="url(#foil)"/></g></g>
+<!-- type line -->
+<rect x="36" y="502" width="558" height="42" rx="10" fill="url(#bar)" stroke="url(#gold)" stroke-width="2.5"/>
+<text x="56" y="530" font-family="DejaVu Sans, Arial, sans-serif" font-weight="bold" font-size="19" fill="#fff">Créature — Sorcier</text>
+<text x="574" y="530" text-anchor="end" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" fill="#fff27a" letter-spacing="2">&#9733;&#9733;</text>
+<!-- text box -->
+<rect x="44" y="554" width="542" height="200" rx="10" fill="url(#parch)" stroke="url(#gold)" stroke-width="2.5"/>
+<text x="315" y="592" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" fill="#22201a"><tspan x="315" dy="0">Sacrifiez 1 point de mana : infligez 600</tspan><tspan x="315" dy="27">dégâts à une cible au choix.</tspan></text>
+<line x1="120" y1="648" x2="510" y2="648" stroke="#a8946a" stroke-width="1.2"/>
+<text x="315" y="680" text-anchor="middle" font-family="DejaVu Serif, Georgia, serif" font-style="italic" font-size="18" fill="#5c4f36">« Le tonnerre répond à sa voix. »</text>
+<!-- stats -->
+<g font-family="DejaVu Sans, Arial, sans-serif" font-weight="bold">
+ <rect x="44" y="776" width="150" height="50" rx="12" fill="url(#bar)" stroke="url(#gold)" stroke-width="2.5"/>
+ <text x="119" y="809" text-anchor="middle" font-size="22" fill="#ff8a7a">ATK 2000</text>
+ <rect x="436" y="776" width="150" height="50" rx="12" fill="url(#bar)" stroke="url(#gold)" stroke-width="2.5"/>
+ <text x="511" y="809" text-anchor="middle" font-size="22" fill="#8ad4ff">DEF 1400</text>
+ <text x="315" y="798" text-anchor="middle" font-size="16" fill="#fff" letter-spacing="1">PEU COMMUNE</text>
+ <text x="315" y="818" text-anchor="middle" font-size="12" font-weight="normal" fill="#fff" opacity=".8">AETHERIA · AE-008/008</text>
+</g>
+</svg>

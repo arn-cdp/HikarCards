@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" width="320" height="120">
+  <path d="M60 14 L100 26 V58 C100 82 82 98 60 106 C38 98 20 82 20 58 V26 Z" fill="#14213d" stroke="#e3a82b" stroke-width="5"/>
+  <rect x="45" y="36" width="30" height="42" rx="4" fill="#fff" stroke="#c81e2c" stroke-width="4"/>
+  <rect x="51" y="43" width="18" height="16" rx="2" fill="#c81e2c"/>
+  <text x="114" y="64" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" font-size="34" fill="#14213d">REMPART</text>
+  <text x="116" y="88" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#c81e2c" letter-spacing="3">PROTÈGE-CARTES</text>
+</svg>

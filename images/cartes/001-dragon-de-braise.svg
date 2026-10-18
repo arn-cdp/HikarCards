@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="630" height="880" viewBox="0 0 630 880">
+<defs>
+ <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#ff7a1a"/><stop offset=".5" stop-color="#7a1208"/><stop offset="1" stop-color="#ff7a1a"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#fff4c2"/><stop offset=".5" stop-color="#d9a93a"/><stop offset="1" stop-color="#8a6116"/></linearGradient>
+ <linearGradient id="parch" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#fbf5e6"/><stop offset="1" stop-color="#e6dbc0"/></linearGradient>
+ <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#1b1b24"/><stop offset=".5" stop-color="#2e2e3c"/><stop offset="1" stop-color="#1b1b24"/></linearGradient>
+ <linearGradient id="foil" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/>
+  <stop offset=".5" stop-color="#fff" stop-opacity=".22"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+ <clipPath id="artclip"><rect x="0" y="0" width="540" height="380" rx="6"/></clipPath>
+ <filter id="sh" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity=".5"/></filter>
+</defs>
+<!-- frame -->
+<rect x="0" y="0" width="630" height="880" rx="30" fill="#111"/>
+<rect x="10" y="10" width="610" height="860" rx="24" fill="url(#frame)"/>
+<rect x="22" y="22" width="586" height="836" rx="16" fill="none" stroke="url(#gold)" stroke-width="3"/>
+<!-- header -->
+<rect x="36" y="34" width="558" height="62" rx="12" fill="url(#bar)" stroke="url(#gold)" stroke-width="3" filter="url(#sh)"/>
+<g transform="translate(70 65)"><circle r="20" fill="#7a1208" stroke="url(#gold)" stroke-width="2.5"/><g><path d="M0 -11 C6 -4 8 1 6 6 C4 10 -4 10 -6 6 C-8 1 -4 -2 -2 -6 C-1 -2 1 -1 2 -3 C3 -6 1 -9 0 -11Z" fill="#fff"/></g></g>
+<text x="102" y="76" font-family="DejaVu Serif, Georgia, serif" font-weight="bold" font-size="30" fill="#fff">Dragon de Braise</text>
+<g transform="translate(558 65)"><circle r="23" fill="url(#gold)" stroke="#5a3e0c" stroke-width="2"/><circle r="17" fill="#1b1b24"/>
+ <text y="9" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-weight="bold" font-size="25" fill="#fff">7</text></g>
+<!-- art -->
+<rect x="40" y="103" width="550" height="390" rx="9" fill="url(#gold)" filter="url(#sh)"/>
+<g transform="translate(45 108)"><g clip-path="url(#artclip)">
+<defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#2a0a0a"/><stop offset=".55" stop-color="#9c2a0c"/><stop offset="1" stop-color="#f29b26"/></linearGradient>
+ <radialGradient id="sun" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff3b0"/><stop offset=".5" stop-color="#ffb63a"/><stop offset="1" stop-color="#ff6a00" stop-opacity="0"/></radialGradient>
+ <linearGradient id="drg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b0d0d"/><stop offset="1" stop-color="#120303"/></linearGradient>
+</defs>
+<rect width="540" height="380" fill="url(#sky)"/>
+<circle cx="390" cy="150" r="140" fill="url(#sun)"/>
+<path d="M0 310 L90 230 L150 270 L230 170 L300 250 L360 215 L450 290 L540 240 L540 380 L0 380Z" fill="#3a0d06"/>
+<path d="M200 380 L230 300 L250 280 L275 300 L300 380Z" fill="#ff7b1c" opacity=".55"/>
+<path d="M0 340 L120 300 L210 330 L330 290 L430 335 L540 300 L540 380 L0 380Z" fill="#1c0603"/>
+<!-- dragon -->
+<g fill="url(#drg)" stroke="#ff8a2a" stroke-width="2" stroke-linejoin="round">
+ <path d="M250 175 C190 90 120 60 40 70 C90 90 110 110 120 130 C80 120 60 130 45 150 C90 145 120 160 140 175 C110 175 95 190 90 205 C140 190 190 195 230 210Z"/>
+ <path d="M300 175 C350 80 420 55 505 55 C460 80 445 100 440 120 C475 112 495 120 510 135 C470 135 440 150 425 168 C455 170 468 185 472 200 C420 186 370 192 320 210Z"/>
+ <path d="M240 200 C230 160 250 130 275 120 C300 130 318 160 310 200 C320 240 310 280 285 300 C300 330 330 345 360 340 C330 360 280 355 262 320 C240 290 235 240 240 200Z"/>
+ <path d="M262 128 C258 105 262 88 275 78 C288 88 292 105 288 128Z"/>
+ <path d="M266 82 L250 58 L270 74Z M284 82 L300 58 L280 74Z"/>
+</g>
+<circle cx="269" cy="98" r="3.5" fill="#ffe14a"/><circle cx="281" cy="98" r="3.5" fill="#ffe14a"/>
+<path d="M275 128 C272 145 268 160 262 170" stroke="#ffb347" stroke-width="2" fill="none" opacity=".7"/>
+<g fill="#ffcf5a"><circle cx="147" cy="295" r="1" opacity="0.6"/><circle cx="130" cy="276" r="2.5" opacity="0.6"/><circle cx="398" cy="351" r="1.5" opacity="0.4"/><circle cx="509" cy="157" r="2.5" opacity="0.6"/><circle cx="12" cy="328" r="2.5" opacity="0.6"/><circle cx="244" cy="301" r="1" opacity="0.6"/><circle cx="41" cy="155" r="1" opacity="0.9"/><circle cx="19" cy="247" r="1.5" opacity="0.6"/><circle cx="39" cy="285" r="1.5" opacity="0.6"/><circle cx="517" cy="291" r="1.5" opacity="0.6"/><circle cx="246" cy="323" r="1.5" opacity="0.6"/><circle cx="306" cy="155" r="2.5" opacity="0.9"/><circle cx="112" cy="197" r="2" opacity="0.4"/><circle cx="350" cy="334" r="2.5" opacity="0.9"/><circle cx="204" cy="227" r="2" opacity="0.9"/><circle cx="521" cy="366" r="2.5" opacity="0.9"/><circle cx="45" cy="272" r="1.5" opacity="0.9"/><circle cx="423" cy="256" r="1.5" opacity="0.6"/><circle cx="393" cy="172" r="2.5" opacity="0.9"/><circle cx="530" cy="177" r="1.5" opacity="0.9"/><circle cx="412" cy="244" r="2.5" opacity="0.9"/><circle cx="40" cy="270" r="1" opacity="0.6"/><circle cx="413" cy="315" r="1.5" opacity="0.4"/><circle cx="524" cy="208" r="1" opacity="0.4"/><circle cx="247" cy="253" r="2" opacity="0.9"/><circle cx="371" cy="267" r="2" opacity="0.9"/><circle cx="15" cy="248" r="1.5" opacity="0.9"/><circle cx="220" cy="259" r="1" opacity="0.6"/><circle cx="383" cy="295" r="1.5" opacity="0.9"/><circle cx="433" cy="274" r="2" opacity="0.6"/><circle cx="364" cy="150" r="2" opacity="0.6"/><circle cx="38" cy="355" r="1.5" opacity="0.9"/><circle cx="191" cy="290" r="1.5" opacity="0.4"/><circle cx="271" cy="158" r="1" opacity="0.4"/><circle cx="27" cy="265" r="1" opacity="0.6"/><circle cx="265" cy="218" r="1" opacity="0.9"/><circle cx="199" cy="238" r="2" opacity="0.4"/><circle cx="181" cy="190" r="2" opacity="0.9"/><circle cx="182" cy="318" r="2" opacity="0.9"/><circle cx="311" cy="266" r="2" opacity="0.6"/></g>
+<rect width="540" height="380" fill="url(#foil)"/></g></g>
+<!-- type line -->
+<rect x="36" y="502" width="558" height="42" rx="10" fill="url(#bar)" stroke="url(#gold)" stroke-width="2.5"/>
+<text x="56" y="530" font-family="DejaVu Sans, Arial, sans-serif" font-weight="bold" font-size="19" fill="#fff">Créature — Dragon</text>
+<text x="574" y="530" text-anchor="end" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" fill="#ffb347" letter-spacing="2">&#9733;&#9733;&#9733;&#9733;&#9733;</text>
+<!-- text box -->
+<rect x="44" y="554" width="542" height="200" rx="10" fill="url(#parch)" stroke="url(#gold)" stroke-width="2.5"/>
+<text x="315" y="592" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" fill="#22201a"><tspan x="315" dy="0">Vol. Quand le Dragon de Braise entre en jeu,</tspan><tspan x="315" dy="27">il inflige 800 dégâts à chaque créature</tspan><tspan x="315" dy="27">adverse.</tspan></text>
+<line x1="120" y1="675" x2="510" y2="675" stroke="#a8946a" stroke-width="1.2"/>
+<text x="315" y="707" text-anchor="middle" font-family="DejaVu Serif, Georgia, serif" font-style="italic" font-size="18" fill="#5c4f36">« Son souffle a forgé les premières montagnes. »</text>
+<!-- stats -->
+<g font-family="DejaVu Sans, Arial, sans-serif" font-weight="bold">
+ <rect x="44" y="776" width="150" height="50" rx="12" fill="url(#bar)" stroke="url(#gold)" stroke-width="2.5"/>
+ <text x="119" y="809" text-anchor="middle" font-size="22" fill="#ff8a7a">ATK 3200</text>
+ <rect x="436" y="776" width="150" height="50" rx="12" fill="url(#bar)" stroke="url(#gold)" stroke-width="2.5"/>
+ <text x="511" y="809" text-anchor="middle" font-size="22" fill="#8ad4ff">DEF 2400</text>
+ <text x="315" y="798" text-anchor="middle" font-size="16" fill="#fff" letter-spacing="1">LÉGENDAIRE</text>
+ <text x="315" y="818" text-anchor="middle" font-size="12" font-weight="normal" fill="#fff" opacity=".8">AETHERIA · AE-001/008</text>
+</g>
+</svg>

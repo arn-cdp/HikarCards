@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="630" height="880" viewBox="0 0 630 880">
+<defs>
+ <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#6fd3ff"/><stop offset=".5" stop-color="#0d3d66"/><stop offset="1" stop-color="#6fd3ff"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#fff4c2"/><stop offset=".5" stop-color="#d9a93a"/><stop offset="1" stop-color="#8a6116"/></linearGradient>
+ <linearGradient id="parch" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#fbf5e6"/><stop offset="1" stop-color="#e6dbc0"/></linearGradient>
+ <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#1b1b24"/><stop offset=".5" stop-color="#2e2e3c"/><stop offset="1" stop-color="#1b1b24"/></linearGradient>
+ <linearGradient id="foil" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/>
+  <stop offset=".5" stop-color="#fff" stop-opacity=".22"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+ <clipPath id="artclip"><rect x="0" y="0" width="540" height="380" rx="6"/></clipPath>
+ <filter id="sh" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity=".5"/></filter>
+</defs>
+<!-- frame -->
+<rect x="0" y="0" width="630" height="880" rx="30" fill="#111"/>
+<rect x="10" y="10" width="610" height="860" rx="24" fill="url(#frame)"/>
+<rect x="22" y="22" width="586" height="836" rx="16" fill="none" stroke="url(#gold)" stroke-width="3"/>
+<!-- header -->
+<rect x="36" y="34" width="558" height="62" rx="12" fill="url(#bar)" stroke="url(#gold)" stroke-width="3" filter="url(#sh)"/>
+<g transform="translate(70 65)"><circle r="20" fill="#0d3d66" stroke="url(#gold)" stroke-width="2.5"/><g><rect x="-1.2" y="-10" width="2.4" height="20" fill="#fff" transform="rotate(0)"/><rect x="-1.2" y="-10" width="2.4" height="20" fill="#fff" transform="rotate(60)"/><rect x="-1.2" y="-10" width="2.4" height="20" fill="#fff" transform="rotate(120)"/></g></g>
+<text x="102" y="76" font-family="DejaVu Serif, Georgia, serif" font-weight="bold" font-size="30" fill="#fff">Loup des Glaces</text>
+<g transform="translate(558 65)"><circle r="23" fill="url(#gold)" stroke="#5a3e0c" stroke-width="2"/><circle r="17" fill="#1b1b24"/>
+ <text y="9" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-weight="bold" font-size="25" fill="#fff">4</text></g>
+<!-- art -->
+<rect x="40" y="103" width="550" height="390" rx="9" fill="url(#gold)" filter="url(#sh)"/>
+<g transform="translate(45 108)"><g clip-path="url(#artclip)">
+<defs>
+ <linearGradient id="wsky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#061a33"/><stop offset=".7" stop-color="#1d5a85"/><stop offset="1" stop-color="#8ed3f0"/></linearGradient>
+ <radialGradient id="moon" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#ffffff"/><stop offset=".7" stop-color="#d8f2ff"/><stop offset="1" stop-color="#d8f2ff" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="540" height="380" fill="url(#wsky)"/>
+<circle cx="340" cy="120" r="95" fill="url(#moon)"/>
+<circle cx="340" cy="120" r="62" fill="#f2fbff"/>
+<circle cx="320" cy="105" r="10" fill="#d4e9f5"/><circle cx="360" cy="135" r="7" fill="#d4e9f5"/>
+<path d="M0 290 L90 220 L150 250 L220 200 L300 260 L380 230 L460 270 L540 235 L540 380 L0 380Z" fill="#a9d8ee"/>
+<path d="M90 220 L110 240 L80 238Z M220 200 L240 222 L205 218Z" fill="#fff"/>
+<!-- wolf howling -->
+<path d="M120 380 C150 335 220 325 270 330 C330 325 390 340 420 380Z" fill="#5d7f99" stroke="#bfe8ff" stroke-width="1.5"/>
+<g fill="#0d2b45" stroke="#bfe8ff" stroke-width="2" stroke-linejoin="round">
+ <path d="M205 330 C165 336 128 322 118 292 C140 306 168 306 192 296Z"/>
+ <path d="M205 332 C178 320 168 290 178 260 C188 230 203 210 216 190 C223 170 229 150 239 135 L234 102 L253 123 C263 113 273 101 283 90 L314 60 L321 69 L302 88 L316 91 L294 108 C286 125 283 142 286 162 C291 192 301 216 301 242 L304 332 L284 332 L282 268 C272 286 264 306 260 332Z"/>
+ <path d="M247 119 L256 90 L266 111Z"/>
+</g>
+<circle cx="271" cy="106" r="3.5" fill="#8ff7ff"/>
+<path d="M326 70 C346 58 370 90 395 92 M328 80 C352 74 376 74 396 80 M322 60 C338 44 356 36 378 32" stroke="#e6f9ff" stroke-width="2" fill="none" opacity=".6"/>
+<path d="M0 330 C120 310 220 345 330 325 C420 310 480 330 540 320 L540 380 L0 380Z" fill="#e8f7ff"/>
+<circle cx="241" cy="155" r="1" fill="#fff" opacity="0.9"/><circle cx="405" cy="245" r="1.5" fill="#fff" opacity="0.5"/><circle cx="68" cy="10" r="2.5" fill="#fff" opacity="0.9"/><circle cx="296" cy="30" r="1.5" fill="#fff" opacity="0.9"/><circle cx="368" cy="141" r="1.5" fill="#fff" opacity="0.5"/><circle cx="268" cy="109" r="1" fill="#fff" opacity="0.9"/><circle cx="266" cy="139" r="1.5" fill="#fff" opacity="0.5"/><circle cx="317" cy="148" r="2" fill="#fff" opacity="0.5"/><circle cx="345" cy="343" r="2.5" fill="#fff" opacity="0.9"/><circle cx="254" cy="91" r="1.5" fill="#fff" opacity="0.7"/><circle cx="286" cy="45" r="3" fill="#fff" opacity="0.7"/><circle cx="7" cy="149" r="3" fill="#fff" opacity="0.9"/><circle cx="319" cy="260" r="1.5" fill="#fff" opacity="0.7"/><circle cx="433" cy="306" r="2" fill="#fff" opacity="0.7"/><circle cx="462" cy="82" r="1.5" fill="#fff" opacity="0.7"/><circle cx="265" cy="22" r="1" fill="#fff" opacity="0.5"/><circle cx="473" cy="320" r="2" fill="#fff" opacity="0.9"/><circle cx="482" cy="358" r="2" fill="#fff" opacity="0.5"/><circle cx="200" cy="34" r="2.5" fill="#fff" opacity="0.5"/><circle cx="451" cy="141" r="1.5" fill="#fff" opacity="0.7"/><circle cx="446" cy="301" r="2" fill="#fff" opacity="0.9"/><circle cx="203" cy="165" r="1" fill="#fff" opacity="0.5"/><circle cx="234" cy="142" r="3" fill="#fff" opacity="0.9"/><circle cx="243" cy="62" r="2" fill="#fff" opacity="0.5"/><circle cx="297" cy="235" r="1" fill="#fff" opacity="0.5"/><circle cx="365" cy="357" r="1" fill="#fff" opacity="0.7"/><circle cx="334" cy="9" r="2" fill="#fff" opacity="0.7"/><circle cx="329" cy="78" r="2.5" fill="#fff" opacity="0.9"/><circle cx="79" cy="150" r="3" fill="#fff" opacity="0.5"/><circle cx="454" cy="149" r="1.5" fill="#fff" opacity="0.7"/><circle cx="390" cy="306" r="1.5" fill="#fff" opacity="0.7"/><circle cx="9" cy="186" r="1" fill="#fff" opacity="0.7"/><circle cx="173" cy="186" r="2" fill="#fff" opacity="0.7"/><circle cx="99" cy="224" r="1.5" fill="#fff" opacity="0.7"/><circle cx="212" cy="58" r="1" fill="#fff" opacity="0.5"/><circle cx="56" cy="377" r="1.5" fill="#fff" opacity="0.9"/><circle cx="153" cy="310" r="1" fill="#fff" opacity="0.9"/><circle cx="502" cy="298" r="1.5" fill="#fff" opacity="0.7"/><circle cx="36" cy="62" r="3" fill="#fff" opacity="0.7"/><circle cx="419" cy="333" r="1.5" fill="#fff" opacity="0.7"/><circle cx="206" cy="123" r="2.5" fill="#fff" opacity="0.7"/><circle cx="503" cy="18" r="1.5" fill="#fff" opacity="0.7"/><circle cx="454" cy="127" r="2.5" fill="#fff" opacity="0.5"/><circle cx="510" cy="96" r="1" fill="#fff" opacity="0.5"/><circle cx="260" cy="129" r="1.5" fill="#fff" opacity="0.9"/><circle cx="213" cy="118" r="2.5" fill="#fff" opacity="0.7"/><circle cx="145" cy="166" r="1" fill="#fff" opacity="0.7"/><circle cx="119" cy="291" r="2.5" fill="#fff" opacity="0.9"/><circle cx="41" cy="253" r="2.5" fill="#fff" opacity="0.5"/><circle cx="440" cy="107" r="3" fill="#fff" opacity="0.5"/><circle cx="344" cy="151" r="2.5" fill="#fff" opacity="0.9"/><circle cx="322" cy="215" r="3" fill="#fff" opacity="0.5"/><circle cx="274" cy="173" r="2.5" fill="#fff" opacity="0.7"/><circle cx="76" cy="143" r="1.5" fill="#fff" opacity="0.5"/><circle cx="404" cy="317" r="1.5" fill="#fff" opacity="0.7"/><circle cx="61" cy="85" r="2.5" fill="#fff" opacity="0.9"/><circle cx="483" cy="206" r="2.5" fill="#fff" opacity="0.5"/><circle cx="3" cy="108" r="1.5" fill="#fff" opacity="0.5"/><circle cx="263" cy="59" r="2.5" fill="#fff" opacity="0.7"/><circle cx="227" cy="281" r="1" fill="#fff" opacity="0.5"/><circle cx="165" cy="343" r="3" fill="#fff" opacity="0.7"/><circle cx="482" cy="269" r="2.5" fill="#fff" opacity="0.5"/><circle cx="80" cy="17" r="3" fill="#fff" opacity="0.5"/><circle cx="500" cy="287" r="2" fill="#fff" opacity="0.9"/><circle cx="142" cy="21" r="2" fill="#fff" opacity="0.5"/><circle cx="535" cy="5" r="2" fill="#fff" opacity="0.7"/><circle cx="76" cy="43" r="3" fill="#fff" opacity="0.7"/><circle cx="390" cy="105" r="2" fill="#fff" opacity="0.7"/><circle cx="239" cy="249" r="2.5" fill="#fff" opacity="0.5"/><circle cx="79" cy="58" r="3" fill="#fff" opacity="0.7"/><rect width="540" height="380" fill="url(#foil)"/></g></g>
+<!-- type line -->
+<rect x="36" y="502" width="558" height="42" rx="10" fill="url(#bar)" stroke="url(#gold)" stroke-width="2.5"/>
+<text x="56" y="530" font-family="DejaVu Sans, Arial, sans-serif" font-weight="bold" font-size="19" fill="#fff">Créature — Bête</text>
+<text x="574" y="530" text-anchor="end" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" fill="#d8f2ff" letter-spacing="2">&#9733;&#9733;&#9733;</text>
+<!-- text box -->
+<rect x="44" y="554" width="542" height="200" rx="10" fill="url(#parch)" stroke="url(#gold)" stroke-width="2.5"/>
+<text x="315" y="592" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" fill="#22201a"><tspan x="315" dy="0">Quand le Loup des Glaces attaque, gelez une</tspan><tspan x="315" dy="27">créature adverse jusqu&#39;à la fin du tour.</tspan></text>
+<line x1="120" y1="648" x2="510" y2="648" stroke="#a8946a" stroke-width="1.2"/>
+<text x="315" y="680" text-anchor="middle" font-family="DejaVu Serif, Georgia, serif" font-style="italic" font-size="18" fill="#5c4f36">« Son hurlement fige le vent lui-même. »</text>
+<!-- stats -->
+<g font-family="DejaVu Sans, Arial, sans-serif" font-weight="bold">
+ <rect x="44" y="776" width="150" height="50" rx="12" fill="url(#bar)" stroke="url(#gold)" stroke-width="2.5"/>
+ <text x="119" y="809" text-anchor="middle" font-size="22" fill="#ff8a7a">ATK 2100</text>
+ <rect x="436" y="776" width="150" height="50" rx="12" fill="url(#bar)" stroke="url(#gold)" stroke-width="2.5"/>
+ <text x="511" y="809" text-anchor="middle" font-size="22" fill="#8ad4ff">DEF 1500</text>
+ <text x="315" y="798" text-anchor="middle" font-size="16" fill="#fff" letter-spacing="1">RARE</text>
+ <text x="315" y="818" text-anchor="middle" font-size="12" font-weight="normal" fill="#fff" opacity=".8">AETHERIA · AE-004/008</text>
+</g>
+</svg>
