@@ -1,11 +1,14 @@
 body {
-    min-height: 100vh;       /* 100vh = 100 % de la hauteur de la fenêtre */
-    display: flex;           /* range les enfants (header, main, footer) en colonne */
+    min-height: 100vh;
+    /* 100vh = 100 % de la hauteur de la fenêtre */
+    display: flex;
+    /* range les enfants (header, main, footer) en colonne */
     flex-direction: column;
 }
 
 main {
-    flex: 1;                 /* le main prend tout l'espace libre */
+    flex: 1;
+    /* le main prend tout l'espace libre */
 }
 
 footer {
@@ -15,7 +18,8 @@ footer {
 
 .login-card {
     max-width: 550px;
-    margin: 60px auto;   /* 60px en haut/bas, auto = centré à gauche/droite */
+    margin: 60px auto;
+    /* 60px en haut/bas, auto = centré à gauche/droite */
     padding: 48px;
     border-radius: 16px;
 }
@@ -26,5 +30,46 @@ footer {
 }
 
 .avis .card {
-    flex: 1;   /* les 3 cartes ont la même largeur */
+    flex: 1;
+    /* les 3 cartes ont la même largeur */
+}
+
+.apropos-rangee {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* 2 colonnes de même largeur */
+    gap: 32px;
+    align-items: center;
+    /* centre verticalement texte et image */
+    margin-bottom: 48px;
+}
+
+.image-apropos img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.mini-map iframe {
+    width: 100%;
+    height: 350px;
+    border-radius: 12px;
+}
+
+.fond-image {
+    background-image: url("../images/contact/contact-fond.svg");
+    background-size: cover;        /* l'image remplit tout l'espace */
+    background-position: center;   /* et reste centrée */
+    background-repeat: no-repeat;
+    padding: 60px 16px;
+}
+
+/* La carte au milieu, comme pour Connexion, mais transparente */
+.carte-transparente {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 48px;
+    border-radius: 16px;
+    background-color: rgba(22, 27, 34, 0.7);   /* 0.7 = 70 % opaque */
+    backdrop-filter: blur(6px);                /* floute l'image derrière la carte */
+    color: white;
 }

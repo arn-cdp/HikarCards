@@ -1,0 +1,272 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b1b4a"/>
+      <stop offset="0.45" stop-color="#c2456b"/>
+      <stop offset="0.8" stop-color="#ffb35c"/>
+      <stop offset="1" stop-color="#ffe0a3"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff6c8" stop-opacity="0.95"/>
+      <stop offset="0.6" stop-color="#ffd36b" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffb347" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="win" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff3c4"/>
+      <stop offset="1" stop-color="#ffc768"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6b3a22"/>
+      <stop offset="0.5" stop-color="#8a4b2b"/>
+      <stop offset="1" stop-color="#6b3a22"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a4a6e"/>
+      <stop offset="1" stop-color="#2c2140"/>
+    </linearGradient>
+    <pattern id="tone" width="10" height="10" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="2.1" fill="#1a1028" opacity="0.35"/>
+    </pattern>
+    <pattern id="toneLight" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="1.3" fill="#1a1028" opacity="0.22"/>
+    </pattern>
+    <radialGradient id="lantern" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#ffd1a1"/>
+      <stop offset="0.4" stop-color="#ff5b45"/>
+      <stop offset="1" stop-color="#b3172b"/>
+    </radialGradient>
+    <g id="petal">
+      <path d="M0 0 C6 -8 14 -6 12 2 C10 8 3 9 0 0 Z" fill="#ffc4d8" stroke="#e57aa0" stroke-width="1.2"/>
+    </g>
+    <g id="card">
+      <rect x="0" y="0" width="54" height="78" rx="5" fill="#fffaf0" stroke="#14091f" stroke-width="3"/>
+      <rect x="6" y="6" width="42" height="36" rx="2"/>
+      <path d="M27 14 l4 9 9 1 -7 6 2 9 -8 -5 -8 5 2 -9 -7 -6 9 -1 Z" fill="#fff" opacity="0.9"/>
+      <rect x="6" y="48" width="42" height="4" fill="#14091f" opacity="0.5"/>
+      <rect x="6" y="56" width="30" height="3" fill="#14091f" opacity="0.35"/>
+      <rect x="6" y="63" width="36" height="3" fill="#14091f" opacity="0.35"/>
+    </g>
+  </defs>
+
+  <!-- CIEL -->
+  <rect width="1200" height="800" fill="url(#sky)"/>
+
+  <!-- Rayons manga derrière la boutique -->
+  <g opacity="0.22" fill="#fff6d8">
+    <path d="M600 330 L0 0 L90 0 Z"/><path d="M600 330 L200 0 L290 0 Z"/>
+    <path d="M600 330 L400 0 L480 0 Z"/><path d="M600 330 L560 0 L640 0 Z"/>
+    <path d="M600 330 L720 0 L800 0 Z"/><path d="M600 330 L910 0 L1000 0 Z"/>
+    <path d="M600 330 L1110 0 L1200 0 Z"/><path d="M600 330 L1200 120 L1200 210 Z"/>
+    <path d="M600 330 L0 120 L0 210 Z"/>
+  </g>
+
+  <!-- Silhouettes d'immeubles -->
+  <g fill="#3a2453" stroke="#14091f" stroke-width="3">
+    <rect x="20" y="210" width="150" height="400"/>
+    <rect x="1030" y="190" width="160" height="420"/>
+    <rect x="170" y="260" width="90" height="350"/>
+    <rect x="950" y="250" width="90" height="360"/>
+  </g>
+  <g fill="#ffd36b" opacity="0.85">
+    <rect x="45" y="240" width="22" height="28"/><rect x="95" y="240" width="22" height="28"/>
+    <rect x="45" y="300" width="22" height="28"/><rect x="125" y="360" width="22" height="28"/>
+    <rect x="1055" y="220" width="22" height="28"/><rect x="1140" y="280" width="22" height="28"/>
+    <rect x="1100" y="350" width="22" height="28"/><rect x="190" y="290" width="18" height="24"/>
+    <rect x="975" y="280" width="18" height="24"/>
+  </g>
+  <!-- Poteau électrique typique -->
+  <g stroke="#14091f" stroke-width="5" fill="none">
+    <line x1="1000" y1="120" x2="1000" y2="610"/>
+    <line x1="975" y1="150" x2="1025" y2="150"/>
+    <line x1="980" y1="175" x2="1020" y2="175"/>
+    <path d="M0 140 Q500 210 1000 152" stroke-width="2"/>
+    <path d="M0 165 Q500 240 1000 177" stroke-width="2"/>
+  </g>
+
+  <!-- SOL / RUE -->
+  <path d="M0 610 L1200 610 L1200 800 L0 800 Z" fill="url(#road)" stroke="#14091f" stroke-width="4"/>
+  <path d="M0 610 L1200 610 L1200 640 L0 640 Z" fill="#8e7aa3" stroke="#14091f" stroke-width="3"/>
+  <path d="M0 640 L1200 640 L1200 800 L0 800 Z" fill="url(#tone)"/>
+  <!-- Reflet lumineux de la vitrine sur le trottoir -->
+  <ellipse cx="600" cy="660" rx="380" ry="40" fill="#ffd36b" opacity="0.35"/>
+
+  <!-- HALO derrière la boutique -->
+  <ellipse cx="600" cy="420" rx="460" ry="300" fill="url(#glow)" opacity="0.55"/>
+
+  <!-- BÂTIMENT -->
+  <rect x="270" y="190" width="660" height="420" fill="#f3e3c3" stroke="#14091f" stroke-width="5"/>
+  <rect x="270" y="190" width="660" height="420" fill="url(#toneLight)"/>
+  <!-- Étage : fenêtres -->
+  <g stroke="#14091f" stroke-width="4">
+    <rect x="320" y="215" width="120" height="70" fill="#ffe7a6"/>
+    <rect x="760" y="215" width="120" height="70" fill="#ffe7a6"/>
+    <line x1="380" y1="215" x2="380" y2="285"/><line x1="820" y1="215" x2="820" y2="285"/>
+  </g>
+  <!-- Toit en tuiles (kawara) -->
+  <path d="M230 195 L970 195 L930 150 L270 150 Z" fill="#2f3b63" stroke="#14091f" stroke-width="5" stroke-linejoin="round"/>
+  <g stroke="#14091f" stroke-width="2.5" fill="none">
+    <path d="M260 180 Q600 172 940 180"/><path d="M275 165 Q600 158 925 165"/>
+  </g>
+  <path d="M215 200 Q240 192 260 198 L940 198 Q960 192 985 200 L980 208 L220 208 Z" fill="#1e2645" stroke="#14091f" stroke-width="4"/>
+
+  <!-- ENSEIGNE -->
+  <rect x="440" y="222" width="320" height="86" rx="10" fill="#c8102e" stroke="#14091f" stroke-width="5"/>
+  <rect x="450" y="230" width="300" height="70" rx="6" fill="none" stroke="#ffd36b" stroke-width="3"/>
+  <text x="600" y="276" text-anchor="middle" font-family="Noto Sans CJK JP, Noto Sans CJK SC, sans-serif" font-weight="900" font-size="33" fill="#fff6d8" stroke="#14091f" stroke-width="1.5" letter-spacing="2">HIKARI CARDS</text>
+  <text x="600" y="296" text-anchor="middle" font-family="Noto Sans CJK JP, Noto Sans CJK SC, sans-serif" font-weight="700" font-size="15" fill="#ffd36b" letter-spacing="4">光カード</text>
+  <!-- étincelles autour de l'enseigne -->
+  <g fill="#fff6c8" stroke="#14091f" stroke-width="2">
+    <path d="M425 230 l5 12 12 5 -12 5 -5 12 -5 -12 -12 -5 12 -5 Z"/>
+    <path d="M775 290 l4 9 9 4 -9 4 -4 9 -4 -9 -9 -4 9 -4 Z"/>
+  </g>
+
+  <!-- Auvent rayé -->
+  <path d="M290 325 L910 325 L940 370 L260 370 Z" fill="#fff6e6" stroke="#14091f" stroke-width="4" stroke-linejoin="round"/>
+  <g fill="#c8102e" stroke="#14091f" stroke-width="2">
+    <path d="M290 325 L345 325 L330 370 L260 370 Z"/>
+    <path d="M400 325 L455 325 L450 370 L395 370 Z"/>
+    <path d="M510 325 L565 325 L565 370 L510 370 Z"/>
+    <path d="M620 325 L675 325 L680 370 L625 370 Z"/>
+    <path d="M730 325 L785 325 L795 370 L740 370 Z"/>
+    <path d="M840 325 L895 325 L910 370 L855 370 Z"/>
+  </g>
+  <path d="M260 370 Q277 384 294 370 Q311 384 328 370 Q345 384 362 370 Q379 384 396 370 Q413 384 430 370 Q447 384 464 370 Q481 384 498 370 Q515 384 532 370 Q549 384 566 370 Q583 384 600 370 Q617 384 634 370 Q651 384 668 370 Q685 384 702 370 Q719 384 736 370 Q753 384 770 370 Q787 384 804 370 Q821 384 838 370 Q855 384 872 370 Q889 384 906 370 Q923 384 940 370" fill="#c8102e" stroke="#14091f" stroke-width="3"/>
+
+  <!-- REZ-DE-CHAUSSÉE : piliers bois -->
+  <rect x="285" y="385" width="22" height="225" fill="url(#wood)" stroke="#14091f" stroke-width="4"/>
+  <rect x="893" y="385" width="22" height="225" fill="url(#wood)" stroke="#14091f" stroke-width="4"/>
+  <rect x="525" y="385" width="18" height="225" fill="url(#wood)" stroke="#14091f" stroke-width="4"/>
+  <rect x="657" y="385" width="18" height="225" fill="url(#wood)" stroke="#14091f" stroke-width="4"/>
+
+  <!-- VITRINE GAUCHE -->
+  <rect x="307" y="395" width="218" height="190" fill="url(#win)" stroke="#14091f" stroke-width="4"/>
+  <g stroke="#14091f" stroke-width="3" fill="#8a4b2b">
+    <rect x="307" y="470" width="218" height="8"/>
+    <rect x="307" y="545" width="218" height="8"/>
+  </g>
+  <g transform="translate(320,398) scale(0.85)">
+    <use href="#card" fill="#7b4cc4"/>
+  </g>
+  <g transform="translate(372,392) scale(0.85) rotate(-6)">
+    <use href="#card" fill="#2d9cdb"/>
+  </g>
+  <g transform="translate(424,398) scale(0.85) rotate(5)">
+    <use href="#card" fill="#e2732e"/>
+  </g>
+  <g transform="translate(474,396) scale(0.85)">
+    <use href="#card" fill="#27a36b"/>
+  </g>
+  <!-- boosters / boîtes -->
+  <g stroke="#14091f" stroke-width="3">
+    <rect x="320" y="488" width="44" height="58" rx="3" fill="#d6336c"/>
+    <rect x="370" y="492" width="44" height="54" rx="3" fill="#3b5bdb"/>
+    <rect x="420" y="500" width="95" height="46" rx="3" fill="#f2c94c"/>
+    <path d="M330 498 h24 M380 502 h24" stroke="#fff" stroke-width="3"/>
+    <text x="467" y="530" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="15" fill="#14091f" stroke="none">BOOSTERS</text>
+    <rect x="322" y="556" width="190" height="24" rx="3" fill="#fff6e6"/>
+    <text x="417" y="574" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="14" fill="#c8102e" stroke="none">NOUVEAUTÉS !</text>
+  </g>
+  <!-- reflet vitre -->
+  <path d="M320 395 L360 395 L310 470 L307 470 L307 420 Z" fill="#fff" opacity="0.45"/>
+  <path d="M480 470 L525 410 L525 440 L500 470 Z" fill="#fff" opacity="0.35"/>
+
+  <!-- VITRINE DROITE -->
+  <rect x="675" y="395" width="218" height="190" fill="url(#win)" stroke="#14091f" stroke-width="4"/>
+  <g stroke="#14091f" stroke-width="3" fill="#8a4b2b">
+    <rect x="675" y="470" width="218" height="8"/>
+    <rect x="675" y="545" width="218" height="8"/>
+  </g>
+  <!-- carte vedette dans un présentoir -->
+  <g transform="translate(745,400)">
+    <rect x="-8" y="-4" width="94" height="128" rx="6" fill="#fff" opacity="0.6"/>
+  </g>
+  <g transform="translate(752,402) scale(1.4)">
+    <use href="#card" fill="#c8102e"/>
+  </g>
+  <g fill="#fff6c8" stroke="#14091f" stroke-width="1.5">
+    <path d="M735 410 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3 Z"/>
+    <path d="M845 455 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3 Z"/>
+  </g>
+  <g stroke="#14091f" stroke-width="3">
+    <rect x="688" y="488" width="60" height="58" rx="3" fill="#7b4cc4"/>
+    <rect x="754" y="495" width="60" height="51" rx="3" fill="#27a36b"/>
+    <rect x="820" y="488" width="60" height="58" rx="3" fill="#2d9cdb"/>
+    <rect x="690" y="556" width="190" height="24" rx="3" fill="#14091f"/>
+    <text x="785" y="574" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="14" fill="#ffd36b" stroke="none">CARTES GRADÉES</text>
+  </g>
+  <path d="M690 395 L730 395 L680 470 L675 470 L675 420 Z" fill="#fff" opacity="0.45"/>
+  <path d="M850 470 L893 410 L893 440 L870 470 Z" fill="#fff" opacity="0.35"/>
+
+  <!-- PORTE + NOREN -->
+  <rect x="543" y="395" width="114" height="215" fill="#ffe7a6" stroke="#14091f" stroke-width="4"/>
+  <rect x="543" y="395" width="114" height="215" fill="url(#toneLight)"/>
+  <line x1="600" y1="470" x2="600" y2="610" stroke="#14091f" stroke-width="3"/>
+  <rect x="540" y="388" width="120" height="8" fill="#6b3a22" stroke="#14091f" stroke-width="3"/>
+  <g stroke="#14091f" stroke-width="3">
+    <path d="M545 396 L582 396 L582 462 Q563 470 545 462 Z" fill="#1e2645"/>
+    <path d="M582 396 L618 396 L618 466 Q600 474 582 466 Z" fill="#1e2645"/>
+    <path d="M618 396 L655 396 L655 462 Q637 470 618 462 Z" fill="#1e2645"/>
+  </g>
+  <text x="600" y="446" text-anchor="middle" font-family="Noto Sans CJK JP, Noto Sans CJK SC, sans-serif" font-weight="900" font-size="34" fill="#fff6e6">光</text>
+
+  <!-- Marche -->
+  <rect x="530" y="605" width="140" height="12" fill="#bba88f" stroke="#14091f" stroke-width="3"/>
+
+  <!-- LANTERNES -->
+  <g stroke="#14091f" stroke-width="3">
+    <line x1="270" y1="372" x2="270" y2="392"/>
+    <ellipse cx="270" cy="420" rx="24" ry="30" fill="url(#lantern)"/>
+    <rect x="258" y="386" width="24" height="7" fill="#14091f"/>
+    <rect x="258" y="447" width="24" height="7" fill="#14091f"/>
+    <path d="M247 410 Q270 404 293 410 M247 430 Q270 436 293 430" fill="none" stroke-width="1.5"/>
+    <line x1="930" y1="372" x2="930" y2="392"/>
+    <ellipse cx="930" cy="420" rx="24" ry="30" fill="url(#lantern)"/>
+    <rect x="918" y="386" width="24" height="7" fill="#14091f"/>
+    <rect x="918" y="447" width="24" height="7" fill="#14091f"/>
+    <path d="M907 410 Q930 404 953 410 M907 430 Q930 436 953 430" fill="none" stroke-width="1.5"/>
+  </g>
+  <circle cx="270" cy="420" r="50" fill="#ff8a5b" opacity="0.18"/>
+  <circle cx="930" cy="420" r="50" fill="#ff8a5b" opacity="0.18"/>
+
+  <!-- CHEVALET "OUVERT" -->
+  <g stroke="#14091f" stroke-width="4" stroke-linejoin="round">
+    <path d="M425 705 L460 595 L530 595 L565 705" fill="none"/>
+    <path d="M440 695 L468 605 L522 605 L550 695 Z" fill="#2f2a2a"/>
+  </g>
+  <text x="495" y="640" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="14" fill="#ffd36b">OUVERT</text>
+  <text x="495" y="662" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#fff6e6">Tournoi</text>
+  <text x="495" y="676" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#fff6e6">samedi 14h</text>
+
+  <!-- Plantes en pot -->
+  <g stroke="#14091f" stroke-width="3">
+    <path d="M230 610 L240 560 L290 560 L300 610 Z" fill="#a0522d"/>
+    <path d="M265 560 Q235 520 225 490 Q255 505 265 540 Q270 495 300 480 Q290 520 268 560 Z" fill="#3fa36b"/>
+    <path d="M900 610 L910 560 L960 560 L970 610 Z" fill="#a0522d"/>
+    <path d="M935 560 Q905 520 895 490 Q925 505 935 540 Q940 495 970 480 Q960 520 938 560 Z" fill="#3fa36b"/>
+  </g>
+
+  <!-- Lignes de vitesse au sol (style manga) -->
+  <g stroke="#fff6d8" stroke-width="2" opacity="0.35">
+    <line x1="60" y1="700" x2="260" y2="700"/><line x1="100" y1="730" x2="380" y2="730"/>
+    <line x1="820" y1="715" x2="1120" y2="715"/><line x1="900" y1="750" x2="1160" y2="750"/>
+  </g>
+
+  <!-- Pétales de cerisier -->
+  <g>
+    <use href="#petal" transform="translate(120,120) rotate(20)"/>
+    <use href="#petal" transform="translate(220,330) rotate(-30)"/>
+    <use href="#petal" transform="translate(380,110) rotate(60)"/>
+    <use href="#petal" transform="translate(830,110) rotate(10)"/>
+    <use href="#petal" transform="translate(1100,90) rotate(-50)"/>
+    <use href="#petal" transform="translate(1110,470) rotate(80)"/>
+    <use href="#petal" transform="translate(80,520) rotate(140)"/>
+    <use href="#petal" transform="translate(700,680) rotate(35)"/>
+    <use href="#petal" transform="translate(360,740) rotate(-80)"/>
+    <use href="#petal" transform="translate(1000,690) rotate(110)"/>
+    <use href="#petal" transform="translate(620,140) rotate(-15) scale(1.3)"/>
+    <use href="#petal" transform="translate(180,620) rotate(50) scale(1.2)"/>
+  </g>
+
+  <!-- Cadre type case de manga -->
+  <rect x="8" y="8" width="1184" height="784" fill="none" stroke="#14091f" stroke-width="16"/>
+</svg>
