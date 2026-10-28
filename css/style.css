@@ -1,9 +1,33 @@
+/*    CHARTE GRAPHIQUE (variables CSS) */
+:root {
+    /* --- Couleurs --- */
+    --couleur-texte: #f9fafc;                     /* texte principal */
+    --fond-transparent: rgba(22, 27, 34, 0.7);    /* 0.7 = 70 % opaque */
+
+    /* --- Espacements --- */
+    --espace-s: 16px;
+    --espace-m: 24px;
+    --espace-l: 32px;
+    --espace-xl: 48px;
+    --espace-xxl: 60px;
+
+    /* --- Arrondis --- */
+    --rayon-petit: 12px;
+    --rayon-moyen: 16px;
+
+    /* --- Dimensions --- */
+    --largeur-carte: 550px;
+    --hauteur-map: 350px;
+}
+
+/*   STRUCTURE GÉNÉRALE */
 body {
     min-height: 100vh;
     /* 100vh = 100 % de la hauteur de la fenêtre */
     display: flex;
     /* range les enfants (header, main, footer) en colonne */
     flex-direction: column;
+    color: var(--couleur-texte);
 }
 
 main {
@@ -13,20 +37,22 @@ main {
 
 footer {
     text-align: center;
-    padding: 16px 0;
+    padding: var(--espace-s) 0;
 }
 
+/*   CONNEXION */
 .login-card {
-    max-width: 550px;
-    margin: 60px auto;
+    max-width: var(--largeur-carte);
+    margin: var(--espace-xxl) auto;
     /* 60px en haut/bas, auto = centré à gauche/droite */
-    padding: 48px;
-    border-radius: 16px;
+    padding: var(--espace-xl);
+    border-radius: var(--rayon-moyen);
 }
 
+/*    ACCUEIL : AVIS CLIENTS */
 .avis {
     display: flex;
-    gap: 24px;
+    gap: var(--espace-m);
 }
 
 .avis .card {
@@ -34,42 +60,46 @@ footer {
     /* les 3 cartes ont la même largeur */
 }
 
+/*    À PROPOS */
 .apropos-rangee {
     display: grid;
     grid-template-columns: 1fr 1fr;
     /* 2 colonnes de même largeur */
-    gap: 32px;
+    gap: var(--espace-l);
     align-items: center;
     /* centre verticalement texte et image */
-    margin-bottom: 48px;
+    margin-bottom: var(--espace-xl);
 }
 
 .image-apropos img {
     width: 100%;
-    border-radius: 12px;
+    border-radius: var(--rayon-petit);
 }
 
 .mini-map iframe {
     width: 100%;
-    height: 350px;
-    border-radius: 12px;
+    height: var(--hauteur-map);
+    border-radius: var(--rayon-petit);
 }
 
+/*   CONTACT */
 .fond-image {
     background-image: url("../images/contact/contact-fond.svg");
     background-size: cover;        /* l'image remplit tout l'espace */
-    background-position: center;   /* et reste centrée */
-    background-repeat: no-repeat;
-    padding: 60px 16px;
+    background-position: center;   /* centrée horizontalement et verticalement */
 }
 
-/* La carte au milieu, comme pour Connexion, mais transparente */
+main.fond-image {
+    display: flex;                 /* range le contenu avec flexbox */
+    align-items: center;           /* centre verticalement */
+    justify-content: center;       /* centre horizontalement */
+    padding: var(--espace-l) var(--espace-s);
+}
+
 .carte-transparente {
-    max-width: 550px;
-    margin: 0 auto;
-    padding: 48px;
-    border-radius: 16px;
-    background-color: rgba(22, 27, 34, 0.7);   /* 0.7 = 70 % opaque */
-    backdrop-filter: blur(6px);                /* floute l'image derrière la carte */
-    color: white;
+    width: 100%;
+    max-width: var(--largeur-carte);   /* le formulaire ne dépasse pas 550px */
+    padding: var(--espace-l);
+    background-color: var(--fond-transparent);   /* fond sombre semi-transparent */
+    border-radius: var(--rayon-moyen);
 }
