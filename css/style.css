@@ -114,3 +114,26 @@ main .card:hover {
     transform: translateY(-8px);                      /* la carte monte un peu */
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);       /* l'ombre s'agrandit */
 }
+
+/*    ACCUEIL : PARTENAIRES */
+.partenaires {
+    display: flex;
+    justify-content: space-around;   /* même effet que justify-content-around */
+    align-items: center;
+    gap: var(--espace-m);
+}
+
+/*    RESPONSIVE : MOBILE */
+@media (max-width: 768px) {
+
+    /* avis : les cartes passent les unes sous les autres */
+    .avis {
+        flex-direction: column;
+    }
+
+    /* partenaires : les logos passent à la ligne et se centrent */
+    .partenaires {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
