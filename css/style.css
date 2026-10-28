@@ -82,7 +82,7 @@ footer {
     border-radius: var(--rayon-petit);
 }
 
-/*   CONTACT */
+/*   contact */
 .fond-image {
     background-image: url("../images/contact/contact-fond.svg");
     background-size: cover;        /* l'image remplit tout l'espace */
