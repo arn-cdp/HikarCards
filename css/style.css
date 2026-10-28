@@ -80,6 +80,7 @@ footer {
     width: 100%;
     height: var(--hauteur-map);
     border-radius: var(--rayon-petit);
+    border: 0;
 }
 
 /*   contact */
