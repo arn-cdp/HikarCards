@@ -103,3 +103,13 @@ main.fond-image {
     background-color: var(--fond-transparent);   /* fond sombre semi-transparent */
     border-radius: var(--rayon-moyen);
 }
+
+/*   boutique effet de survol des cartes */
+main .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+main .card:hover {
+    transform: translateY(-8px);                      /* la carte monte un peu */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);       /* l'ombre s'agrandit */
+}
